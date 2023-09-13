@@ -10,11 +10,11 @@ An application that allows the user to view properties loaded from a spreadsheet
 
 Project Overview Here is a quick overview of the existing classes: 
 
-• Property
+**• Property**
 
  – This class represents a single property.
 
- • Portfolio 
+** • Portfolio **
 
  – This represents a collection of properties.
  
@@ -22,12 +22,15 @@ Project Overview Here is a quick overview of the existing classes:
  
  – The portfolio will automatically load all the properties that it finds in that spreadsheet. 
 
-• PropertyViewerGUI 
+**• PropertyViewerGUI **
 
  – This class presents the GUI (Graphical User Interface) of the application. That is: it draws the main window, the buttons, and all the other things you see on the screen.
- – The class does two additional things: (1) if the user clicks a button, that call is passed onto the relevant PropertyViewer method; (2) the PropertyViewer class may call this one to display a Property or String in the interface. 
+ 
+ – The class does two additional things: 
+ (1) if the user clicks a button, that call is passed onto the relevant PropertyViewer method; 
+ (2) the PropertyViewer class may call this one to display a Property or String in the interface. 
 
-• PropertyViewer 
+**• PropertyViewer **
 
 – This class implements the logic of the property viewer. 
 
