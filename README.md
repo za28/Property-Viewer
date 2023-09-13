@@ -9,21 +9,30 @@ An application that allows the user to view properties loaded from a spreadsheet
 
 
 Project Overview Here is a quick overview of the existing classes: 
+
 • Property
+
  – This class represents a single property.
 
  • Portfolio 
-– This represents a collection of properties.
+
+ – This represents a collection of properties.
+ 
  – A portfolio is built by specifying a spreadsheet on disk with the data on some properties in it (this is by default the file called airbnb-london.csv — this is real-world data are some of the actual AirBnB listings). 
-– The portfolio will automatically load all the properties that it finds in that spreadsheet. 
+ 
+ – The portfolio will automatically load all the properties that it finds in that spreadsheet. 
 
 • PropertyViewerGUI 
-– This class presents the GUI (Graphical User Interface) of the application. That is: it draws the main window, the buttons, and all the other things you see on the screen.
+
+ – This class presents the GUI (Graphical User Interface) of the application. That is: it draws the main window, the buttons, and all the other things you see on the screen.
  – The class does two additional things: (1) if the user clicks a button, that call is passed onto the relevant PropertyViewer method; (2) the PropertyViewer class may call this one to display a Property or String in the interface. 
 
 • PropertyViewer 
+
 – This class implements the logic of the property viewer. 
+
 – This is also the class that you instantiate to start this application.
+
  – This is also the class that you instantiate to run the application. 
  
 
