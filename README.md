@@ -7,7 +7,7 @@ Property viewer
 
 An application that allows the user to view properties loaded from a spreadsheet. 
 
-
+<br>
 Project Overview Here is a quick overview of the existing classes: 
 
 **• Property**
@@ -37,7 +37,8 @@ Project Overview Here is a quick overview of the existing classes:
 – This is also the class that you instantiate to start this application.
 
  – This is also the class that you instantiate to run the application. 
- 
+<br>
+**Functionality:**
 
 • When the application is started, the first property in the portfolio (index 0) is automatically displayed. 
 
